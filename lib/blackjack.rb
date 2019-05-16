@@ -37,10 +37,12 @@ end
 
 def hit?(current_card)
   # code hit? here
+  total = 0 
   prompt_user
   input = get_user_input
     if input == "h"
-      return deal_card
+      i = deal_card
+      return total += i.to_i
     end
       
 end
