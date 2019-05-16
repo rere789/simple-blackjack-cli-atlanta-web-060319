@@ -39,8 +39,8 @@ def hit?(current_card)
   # code hit? here
   prompt_user
   input = get_user_input
-    # if input == "h"
-    #   deal_card
+    if input == "h"
+      deal_card
       
 end
 
