@@ -40,7 +40,7 @@ def hit?(current_card)
   prompt_user
   input = get_user_input
     if input == "h"
-      deal_card
+      return deal_card
     end
       
 end
