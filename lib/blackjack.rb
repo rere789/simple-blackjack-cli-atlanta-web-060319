@@ -31,7 +31,7 @@ end
 def initial_round
   # code #initial_round here
     deal_card
-    puts "#{display_card_total"
+    puts "#{display_card_total}"
 end
 
 def hit?
