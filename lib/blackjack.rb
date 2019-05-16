@@ -57,6 +57,8 @@ end
 
 def runner
   welcome 
+  first_hand = initial_round
+  hit?
   
 end
     
