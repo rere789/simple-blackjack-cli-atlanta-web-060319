@@ -25,6 +25,7 @@ end
 
 def end_game
   # code #end_game here
+  puts "apology, #{display_card_total}, and thank you"
 end
 
 def initial_round
