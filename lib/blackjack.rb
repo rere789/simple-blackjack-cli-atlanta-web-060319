@@ -56,6 +56,6 @@ end
 #####################################################
 
 def runner
-  welcome
+  puts "#{welcome}"
 end
     
