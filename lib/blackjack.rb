@@ -41,6 +41,7 @@ def hit?(current_card)
   input = get_user_input
     if input == "h"
       deal_card
+    end
       
 end
 
