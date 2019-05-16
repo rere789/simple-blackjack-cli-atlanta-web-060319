@@ -35,14 +35,12 @@ def initial_round
     return sum 
 end
 
-def hit?(current_card)
+def hit?(current_total)
   # code hit? here
-  total = 0 
   prompt_user
   input = get_user_input
     if input == "h"
-      i = deal_card
-      return total += i.to_i
+      current_total += deal_card
     end
       
 end
